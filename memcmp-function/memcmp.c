@@ -1,4 +1,4 @@
-int my_memcmp(const void *data1_location, const void *data2_location, int bytes_size)
+ int my_memcmp(const void *data1_location, const void *data2_location, int bytes_size)
 {
     int loop_counter=0; // used to count and access memory location with pointer like (ptr+loop_counter)
     if( data1_location==NULL || data2_location==NULL) return NULL; // error in passing a memory location
